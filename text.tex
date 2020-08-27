@@ -1,0 +1,72 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{abstract}
+\usepackage{amsmath}
+
+\usepackage{tocloft}
+\cftsetindents{section}{1.5em}{3em}
+
+\title{Firefighter Automation}
+
+\author{by\\\
+Tasaporn Kittipongpysan 5911867\\\
+Simon Fehrmann 5911329 \\\
+Benjarat Soysangtong 5925402 \\\\
+A report submitted in partial fulfillment of the requirements for\\\
+the degree of Bachelor of Engineering in\\\
+Mechatronics Engineering \\\\
+Project Advisor: \\\ Asst. Prof. Dr. Narong Aphiratsakun  \\\\
+Examination Committee: \\\  Dr. Jerapong Rojanarowan, Dr. Wisuwat Plodpradista,  \\\
+Assoc. Prof. Dr. Jiradech Kongthon, Mr. Sunchanan Charanyananda, \\\ Mr. Amulya Bhattarai, Mr. Ehsan Ali \\\\
+Assumption University (12) \\\
+Vincent Mary School of Engineering \\\ Thailand \\\
+October 2020 \\\
+
+ }
+
+\begin{document}
+  \maketitle
+  \newpage
+\title{Abstract}\\\\
+  At present day, when there is a fire incident, the fire and rescue service will send each team to extinguishing fire and to rescue and protecting people in the event. The most dangerous team is the fire-rescue team that has to get into the fire area to find and rescue victims in buildings or in emergency situations
+ \\\\This project was designed to help the fire-rescue team (within the area) to automatically spray water to the burning area. This robot will capture and use sensors to detect fires, then command a water sprayer to extinguish the fire efficiently. They can monitor the fire extinguishing process of the machine and display real-time image to mobile application. This application will be able to be controlled by the user and it is more convenient to command. 
+
+ \maketitle
+            \newpage
+ \section{Introduction}
+ \subsection{Introduction of Topic }
+  Nowadays, automation in the industrial workplace plays a significant role in the world and it provides the advantages as increasing safety, reducing error, better product quality, and profitability.\\\\
+In our project, we are going to do firefighter automation in which we apply some automation technology to automatically detect fire and the user will be able to monitor through the mobile application.\\\\
+ \subsection{Project Ideas}
+As we see from news in the last few months, the increase of climate change creating more intense and more frequent wildfires where massive burns from Australia, the Amazon and California in 2019. Many people and animals were injured and killed. The wildlife is extended every year and getting more dangerous to living things and human.  
+\\\\Wildfire firefighters/ firefighters have to face dangerous situations and get into the fire area. They were required to work long hours in challenging and changing conditions; high temperature and steep terrain that increase their risk of on-the-job death and injury.  
+ \\\\This project “firefighter automation” was designed to help firefighters to detect and suppress the fire, where it is not able to extinguish the wildfire or burning. 
+ \maketitle
+ \section{Project Overview }
+ \subsection{Initial Study and  Background Study}
+In this project, we choose the Raspberry Pi which is a minicomputer to be our controller for receiving the data from camera and sensor and controlling servo and pump. We use Python to be our programming language. 
+\\\\We must set the machine to be in the proper distance between the burning object and machine where it can precisely spray the water.
+
+\maketitle
+            \newpage
+ \subsection{Theory}
+ Raspberry Pi is a minicomputer that it can run multiple programs at a time. There is a huge range of "HATs" (Hardware Attached on-Top) and other accessories which you can connect to the Raspberry Pi and add specific features such as: Cameras, LCD displays, Motor drivers, Sensors, GPS, Mobile data connection, Digital TV decoders, etc. So, we use this controller because we use many devices to communicate together such as camera, temperature sensor, distance sensor, servo, and pump. Moreover, we want to show the real time data and real time video on python platform.\\\\
+ Arduino is a microcontroller which is a part of the computer that it run only one program. So, it’s not suitable to use in our project and Raspberry Pi is faster than Arduino by 40 times in clock speed.\\\\
+To detect the fire, we use the knowledge of image processing that there are 2 concepts to determine the fire which are “Fire Detection” and “Smoke Detection”. Then, we compare and analyze these 2 data that is it fire or not.\\\\ 
+
+ \section{Methodology }
+ \subsection{Method of Implementation}
+  This project will use the robot that is able to detect the fire and respond to the fire(capable of extinguishing buildings) and also able to use smartphone applications to receive the information with real time imaging.\\\\
+The sub-main objective as following\\\\
+-To reduce the risk of dangerous work in dangerous situations. \\\
+-To reduce human labor. \\\
+-To increase safety to human. \\\
+ \newpage
+ \subsection{Project system}
+ \subsubsection{Block Diagram} 
+ 
+ \subsubsection{Flow Chart }
+
+\end{document}
